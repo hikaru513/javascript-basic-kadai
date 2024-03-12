@@ -1,6 +1,5 @@
 let input = prompt("数値を入力してください:");
 let num = parseInt(input);
-Math.floor(Math.random() * num) + 1
 
 console.log(num);
  
