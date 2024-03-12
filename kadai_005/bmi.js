@@ -5,7 +5,7 @@ let userHeight;
 userHeight = 1.7;
 
 let userBMI;
-userBMI = userWeight/userHeight*userHeight;
+userBMI = userWeight/(userHeight*userHeight);
 
 
 console.log(userBMI);
