@@ -1,7 +1,10 @@
 const btn = document.getElementById('btn');
- 
+
+btn.addEventListener('click', ()=> {
+  
 setTimeout(() => {
-btn.addEventListener('click', () => {
-  console.log('ボタンをクリックしました');
-}, 2000);
+    const text = document.getElementById('text');
+    text.textContent = "ボタンをクリックしました";
+  }, 2000);
+
 });
